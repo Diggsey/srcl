@@ -3,8 +3,9 @@ extern crate byteorder;
 #[macro_use]
 extern crate binary_macros;
 
-pub mod digest;
 pub mod utils;
+pub mod digest;
+pub mod bigint;
 
 #[cfg(test)]
 mod tests {
